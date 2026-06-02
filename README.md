@@ -1,5 +1,5 @@
 # 💫 About Me:
-Ccxccccccccccccc
+Computer Science (Data Analytics) Student | 🧪 Selenium & Python Automation | 📊 Data Analytics Enthusiast | 🚀 Continuous Learner....
 
 
 ## 🌐 Socials:
