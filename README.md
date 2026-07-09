@@ -1,18 +1,218 @@
-# 💫 About Me:
-Computer Science (Data Analytics) Student | 🧪 Selenium & Python Automation | 📊 Data Analytics Enthusiast | 🚀 Continuous Learner....
+# 🏠 House Price Prediction Using Linear Regression
 
+## 📌 Project Overview
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/cha-mahikha-623124340?utm_source=share_via&utm_content=profile&utm_medium=member_android) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mahikhamahikha1@gmail.com) 
+House Price Prediction is a Machine Learning project that predicts the median house price of a district using various housing-related features from the California Housing Dataset. The project implements the **Linear Regression** algorithm to identify relationships between input features and house prices, enabling accurate price predictions based on historical data.
 
-# 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Mahikha-025&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Mahikha-025&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Mahikha-025&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+This project serves as an introduction to supervised machine learning and demonstrates the complete workflow of building, training, and evaluating a regression model using Python and Scikit-learn.
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+---
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🎯 Objective
+
+- Build a machine learning model to predict house prices.
+- Learn the implementation of Linear Regression.
+- Perform data preprocessing and train the model.
+- Evaluate prediction accuracy using performance metrics.
+- Understand the end-to-end machine learning workflow.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Google Colab / Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+
+---
+
+## 📂 Dataset
+
+This project uses the **California Housing Dataset**, which is available directly through the Scikit-learn library.
+
+### Features
+
+- MedInc – Median Income
+- HouseAge – House Age
+- AveRooms – Average Number of Rooms
+- AveBedrms – Average Number of Bedrooms
+- Population – Population
+- AveOccup – Average Occupancy
+- Latitude
+- Longitude
+
+### Target
+
+- Median House Value
+
+---
+
+## ⚙️ Machine Learning Workflow
+
+1. Import the required libraries.
+2. Load the California Housing Dataset.
+3. Convert the dataset into a Pandas DataFrame.
+4. Explore the dataset.
+5. Split the data into training and testing sets.
+6. Train the Linear Regression model.
+7. Predict house prices using the test dataset.
+8. Evaluate the model using MSE and R² Score.
+9. Display the prediction results.
+
+---
+
+## 📊 Model Evaluation
+
+The model performance is evaluated using:
+
+- **Mean Squared Error (MSE)**
+- **R² Score (Coefficient of Determination)**
+
+These metrics measure how accurately the trained model predicts house prices.
+
+---
+
+## 📁 Project Structure
+
+```
+House-Price-Prediction/
+│
+├── House_Price_Prediction.ipynb
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## ▶️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/House-Price-Prediction.git
+```
+
+Move into the project folder:
+
+```bash
+cd House-Price-Prediction
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run the Project
+
+Open the notebook using:
+
+- Google Colab
+- Jupyter Notebook
+
+Run all the cells sequentially to:
+
+- Load the dataset
+- Train the model
+- Predict house prices
+- View evaluation metrics
+
+---
+
+## 📈 Sample Output
+
+```
+Mean Squared Error: 0.5559
+
+R² Score: 0.5758
+
+Actual Price: 1.36100
+Predicted Price: 0.71912
+
+Actual Price: 2.41300
+Predicted Price: 1.76402
+
+Actual Price: 2.00700
+Predicted Price: 2.70966
+```
+
+*(Output values may vary slightly because of train-test splitting.)*
+
+---
+
+## 💡 Applications
+
+- Real Estate Price Prediction
+- Property Value Estimation
+- Housing Market Analysis
+- Investment Decision Support
+- Business Intelligence
+
+---
+
+## 🚀 Future Enhancements
+
+- Use advanced regression algorithms.
+- Perform feature engineering.
+- Hyperparameter tuning.
+- Deploy the model as a web application.
+- Add data visualization dashboards.
+- Compare multiple machine learning models.
+
+---
+
+## 📚 Libraries Used
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+from sklearn.datasets import fetch_california_housing
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+```
+
+---
+
+## 📄 Requirements
+
+Create a `requirements.txt` file with the following content:
+
+```text
+pandas
+numpy
+matplotlib
+scikit-learn
+```
+
+---
+
+## 👩‍💻 Author
+
+**Mahikha Cha**
+
+B.Sc. Computer Science with Data Analytics
+
+---
+
+## ⭐ Acknowledgement
+
+The California Housing Dataset is provided by **Scikit-learn** and is widely used for educational purposes in machine learning and data science.
+
+---
+
+## 📜 License
+
+This project is created for educational and learning purposes. Feel free to use and modify it for academic projects.
+
+---
+
+### ⭐ If you found this project useful, don't forget to Star the repository!
